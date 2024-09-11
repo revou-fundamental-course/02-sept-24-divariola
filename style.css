@@ -1,0 +1,232 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #6699CC;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px 0;
+    background: #77AB77;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4682B4;
+}
+
+/* LinkedIn Button */
+.linkedin-button {
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.linkedin-button:hover {
+    background-color: #005582;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #6699CC;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4682B4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #005582;
+}
+
+/* General Section Background */
+section {
+    background: #F0E6D2;
+    padding: 20px 0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Project Section */
+.project {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #BBBBBB;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #4682B4;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form Styles */
+form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #BBBBBB;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 8px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #77AB77;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4682B4;
+}
+
+.project-button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #77AB77;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.project-button:hover {
+    background-color: #4682B4;
+}
+
+/* Footer */
+footer {
+    background: #6699CC;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.social-button:hover {
+    opacity: 0.8;
+}
